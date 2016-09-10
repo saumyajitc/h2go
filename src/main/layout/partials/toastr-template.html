@@ -1,0 +1,69 @@
+<!--<div class="{{toastaClass}} {{toastaType}}" ng-click="tapToasta()">
+  <div ng-switch on="allowHtml">
+    <div ng-switch-default ng-if="title" class="{{titleClass}}" aria-label="{{title}}">{{title}}</div>
+    <div ng-switch-default class="{{messageClass}}" aria-label="{{message}}">{{message}}</div>
+    <div ng-switch-when="true" ng-if="title" class="{{titleClass}}" ng-bind-html="title"></div>
+    <div ng-switch-when="true" class="{{messageClass}}" ng-bind-html="message"></div>
+  </div>
+  <progress-bar ng-if="progressBar"></progress-bar>
+</div>-->
+
+<div class=" toasta-box" ng-class="{'toasta-priority': message.priority}">
+    <div class=" toasta-title">
+        <div class="toasta-close">
+            <i class="icon-Close" aria-hidden="true" ng-click="tapToast()"></i>
+        </div>
+        <div class="toasta-type pull-left">
+            <span class="label toasta-{{message.typeId}}">{{message.title}}</span>
+        </div>
+        <div class="toasta-meta pull-right">
+            <span class=""><span ng-show="message.portfolios" class="icon-Icons_Contributor icon-white"></span>{{message.portfolios}}</span>
+            <span class=""><span ng-show="message.date" class="icon-Icons_Contributor icon-white"></span>{{message.date | date:"d MMM yy"}}</span>
+        </div>
+    </div>
+    <div class="toasta-body" ng-switch on="message.typeId">
+        <div ng-switch-when="1">
+            Performance below <strong>{{message.target}}</strong> threshold of <strong>{{message.value}}</strong>
+        </div>
+        <div ng-switch-when="2">
+            <strong>{{message.target}}</strong> ticker is now CAT <strong>{{message.value}}</strong> restricted
+        </div>
+        <div ng-switch-when="3">
+            Idea closed as has met minimum hold period for this portfolio
+        </div>
+        <div ng-switch-when="4">
+            Idea closed as has exceeded max life of <strong>{{message.value}}</strong> days.
+        </div>
+        <div ng-switch-when="5">
+            Potential Stock / Reverse split detected - Please check and close out ideas as necessary. 
+        </div>
+        <div ng-switch-when="6">
+            Potential Merger detected - Please check and close out ideas as necessary.
+        </div>
+        <div ng-switch-when="7">
+            Idea has reached target of <strong>{{message.value}}</strong> Alpha
+        </div>
+        <div ng-switch-when="8">
+            Idea has hit stop loss level of <strong>{{message.value}}</strong> Alpha
+        </div>
+        <div ng-switch-when="9">
+            Idea is close to max life and will be automatically closed in <strong>{{message.value}}</strong> days.
+        </div>
+        <div ng-switch-when="10">
+            You need to submit <strong>{{message.target}}</strong> ideas in <strong>{{message.value}}</strong> days to meet target
+        </div>
+        <div ng-switch-when="11">
+            An idea has been submitted by <strong>{{message.target}}</strong>
+        </div>
+        <div ng-switch-when="12">
+            An idea has been submitted by <strong>{{message.target}}</strong> in <strong>{{message.value}}</strong> sector
+        </div>
+        <div ng-switch-when="13">
+            Ideas has met time horizon of <strong>{{message.value}}</strong> <strong>{{message.target}}</strong>
+        </div>  
+        <div ng-switch-when="buy">
+        </div>  
+        <div ng-switch-when="sell">
+        </div>  
+        <div ng-switch-default class="toasta-message" aria-label="{{message}}">{{message}}</div>
+    </div>

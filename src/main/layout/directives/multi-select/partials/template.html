@@ -1,0 +1,30 @@
+<div class="ms-position">
+    <div class="ms-drop" ng-click="toggleDropdown($event)">
+        <div class="ms-drop ms-drop-container">
+            <span class="ms-placeholder" ng-show="showPlaceholder()">{{data.itemLongName}}</span>
+            <span class="ms-pill" ng-class="{'ms-allowed': pill.allowed && pill.selected, 'ms-excluded': !pill.allowed && pill.selected}" ng-repeat="pill in selected track by $index">{{pill.itemLongName}}<span class="icon-Close" ng-click="removeItem(pill)"></span></span>
+        </div>
+        <div class="ms-drop ms-drop-carat">
+            <i class="caret pull-right" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!--<ng-transclude></ng-transclude>-->
+    <div class="ms-container" ng-show="dropdownOpen()">
+        <div class="ms-search has-feedback">
+            <span class="icon-Search form-control-feedback"></span>
+            <input class="form-control input-150" name="ms-search" id="ms-search" ng-model="formData.search" />
+        </div>
+        <div class="ms-sub-container">
+            <div ng-repeat="item in items" class="col-lg-3 col-md-3 col-sm-3 nopadding">
+                <h3 class="ms-sub-title">{{item.itemLongName}}</h3>
+                <ul class="ms-items list-unstyled">
+                    <li class="ms-item" ng-repeat="item in items[$index].itemItems" ng-class="[msAllowed(item), msExcluded(item), msHighlighted(item)]" ng-click="!last(item) && setItems($event, $parent.$index+1, item)" ng-mouseover="addHover(item)" ng-mouseleave="removeHover(item)">
+                        {{item.itemLongName}}
+                        <span ng-show="item.hover" class="ms-selection pull-right"><span class="icon-Closed" ng-if="item.parentValue !== false" aria-hidden="true" ng-click="selectItem(item, false)"></span> <span class="faded-50" ng-if="showPipe(item)">|</span> <span class="icon-Check" ng-if="item.parentValue !== true" aria-hidden="true" ng-click="selectItem(item, true)"></span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div ng-transclude></div>
+    </div>
+</div>

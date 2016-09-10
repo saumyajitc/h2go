@@ -1,0 +1,4 @@
+<div class="contributor-input">
+	<div class="pill" ng-class="smallinput ? 'pad-left' : 'pad-right'" ng-repeat="item in items | limitTo: display | orderBy:$index:true track by $index"><span>{{item.user.userDimension.firstName}} {{item.user.userDimension.lastName}}</span><span class="icon-Close" ng-click="remove(item)"></span></div>
+	<div class="pill" ng-show="showAll()" ng-click="openModal('contributors')"><span>...</span></div>
+</div>

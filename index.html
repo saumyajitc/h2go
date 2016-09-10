@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/5.0.3/styles/ag-grid.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/5.0.3/styles/theme-blue.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/5.0.3/styles/theme-fresh.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/5.0.3/styles/theme-bootstrap.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.19.1/select.css">
+
+	<link rel="import" href="/src/main/layout/partials/modals/modal_generic.html">
+	<link rel="import" href="/src/main/layout/partials/modals/modal_exceptions.html">
+
+	<title>Citi Alpha Capture</title>
+</head>
+<body ng-app="citiAlphaApp">
+
+<!-- <init-hello></init-hello> -->
+	
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-lg-12 col-md-12 col-sm-12">
+  			<ui-view></ui-view>		
+  		</div>
+  	</div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="src/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Inter",
+				"Interstate-Light"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"layout",
+				"layoutService"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ideaState",
+				"ideaStateId"
+			],
+			[
+				"closeIdea",
+				"closeIdeasData"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"fle",
+				"flex-basis"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"consol",
+				"console.info();"
+			],
+			[
+				"notify",
+				"notifyService"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"mockIdea",
+				"mockIdeaList"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"layou",
+				"layoutSetup"
+			],
+			[
+				"node",
+				"node_modules"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package ControlL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/schow4/Documents/personal/_projects_/h2go"
+	],
+	"file_history":
+	[
+		"/Users/schow4/Documents/personal/_projects_/h2go/package.json",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/createIdea-20160815224726.html",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/createIdea-20160801122303.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/services/ideaSetup.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/partials/tabsPortIdeaCont.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/scss/home.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/controllers/details.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/services/service.constants.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/controllers/idea.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/controllers/ideaCRUDController.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/editIdea.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/closeIdea.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/sectionLeft.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/directives/inputformat/inputformat-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/utils/percent.filter.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/layout.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/controllers/layout.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/config.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/services/layoutSetup.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/index.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/webpack.config.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/controllers/home.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/services/modal.constants.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/services/idea.constants.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/utils/modal.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/partials/modals/modal_exceptions.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/_variables.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/index.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/utils/appHttp.interceptor.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/directives/idea/idea-comp.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/directives/idea/idea-comp.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/layout.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/directives/maxvalue/maxvalue-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/input-validate-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/user/controllers/newUser.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/createIdea.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/directives/inpututils/selectonclick-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/controllers/tabs.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/package.json",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/controllers/ideaMarketData.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp-validate.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/services/rest.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/directives/idea/idea-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/directives/charts/idea-perf-line-chart-comp.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/partials/portfolioCreate.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/index.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/index.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/directives/charts/charts.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/home.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/partials/tabItemDetail.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/home.routes.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/scss/idea.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/defaults.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/idea.routes.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/sectionRight.html",
+		"/Users/schow4/Documents/_projects_/Base-Angular/src/main/htmldev/js/modules/reports/controllers/reports-ctrl.js",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp-20160805153526.scss",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/directives/ticker/ticker-comp-20160802152852.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/services/homeSetup.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/index.html",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/partials/editIdea-20160805153526.html",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/.sublime/Local History/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/partials/tabsPortIdeaCont-20160729132111.html",
+		"/Users/schow4/Documents/_projects_/Base-Angular/src/main/htmldev/js/modules/budget/templates/partials/businessCaseMain.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/partials/modals/modal_generic.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/controllers/modals/generic.ctrl.modal.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/bundle.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/.gitignore",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/services/portfolioSetup.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/config.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/directives/contributors/partials/generic.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/directives/contributors/contributors.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/controllers/portfolio.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/index.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/controllers/portfoliocreate.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/portfolio.routes.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/directives/contributors/contributors.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/controllers/filters.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/controllers/performance.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/partials/filters.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/home/partials/performance.html",
+		"/Users/schow4/Documents/_projects_/Base-Angular/src/main/htmldev/js/modules/common/templates/modals/deleteDialogue.html",
+		"/Users/schow4/Documents/_projects_/Base-Angular/src/main/htmldev/js/modules/common/controllers/modals/generic-error-ctrl.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/index.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/font_awesome/font-awesome.css",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/partials/header.html",
+		"/Users/schow4/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/partials/modals/modal_contributors.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/controllers/leftcontroller.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/controllers/modals/contributors.ctrl.modal.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/portfolio/partials/createPortfolio.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/controllers/ideaTickerController.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/node_modules/ag-grid/dist/lib/clientExports.js",
+		"/Users/schow4/Documents/_projects_/Base-Angular/src/main/htmldev/js/modules/admin/services/admin-serv.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/idea.html",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/font_awesome/scss/_variables.scss",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/vendor/index_vendor.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/services/user.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/node_modules/ag-grid/main.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/node_modules/ag-grid/dist/styles/ag-grid.css",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/node_modules/ag-grid/dist/styles/theme-fresh.css",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/utils/notify.service.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/modules/idea/controllers/ideaCRUDontroller.controller.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/font-awesome.config.js",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src/main/layout/scss/font-awesome.css",
+		"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/.gitignore",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/home/index.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/webpack.config.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/scss/_variables.scss",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/.bootstraprc",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/scss/layout.scss",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/scss/idea.scss",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/config.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/layout.html",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/index.html",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/partials/header.html",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/services/layoutSetup.service.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/controllers/layout.controller.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/partials/sectionLeft.html",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/home/home.routes.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/home/controllers/home.controller.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/idea.html",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/controllers/idea.controller.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/services/ideaSetup.service.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/idea.routes.js",
+		"/Users/schow4/Documents/_projects_/sap_citi_alpha_capture/src/main/layout/modules/idea/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/schow4/Documents/_projects_/citi_alpha_capture/alphacode/WebContent/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data",
+			"San Francisco",
+			"New York",
+			"4",
+			"8",
+			"4",
+			"8",
+			"portfolios",
+			"show",
+			"idea",
+			"ctrl",
+			"value",
+			"detail",
+			"c",
+			"col-xs-4",
+			"ic",
+			"this",
+			"length",
+			"4",
+			"8",
+			"getAppReferenceData",
+			"4",
+			"8",
+			"scope.loading",
+			"validation-msg",
+			"paramSerializer",
+			"default-caps",
+			"HEAD",
+			"font-primary-gray",
+			"font-subtitle-color",
+			"12",
+			"8",
+			"4",
+			"equityIdeaLegs",
+			"equityLegs",
+			"_data.ideaEditDataModel",
+			"_data",
+			"panel-list-body",
+			"editformname",
+			"t",
+			"formname",
+			"value",
+			"count",
+			"date",
+			"max",
+			"date",
+			"scope",
+			"data",
+			"setCode",
+			"ctrl.$viewValue",
+			"span",
+			"Interstate",
+			"p",
+			"8",
+			"4",
+			"margin",
+			"7",
+			"5",
+			"228",
+			"market-data-title-sub",
+			"valid",
+			"form",
+			"form				",
+			"alertsl",
+			"alerttp",
+			"none",
+			"3",
+			"6",
+			"4",
+			".ui-select-container",
+			"chkValid",
+			"new_idea_form",
+			"validateBusinessCaseInfoItems",
+			"validateBusinessCaseInfoItems\ncloseIdeaPopupOpen",
+			"closeIdeaPopupOpen",
+			"fa-play",
+			"tc.tickername",
+			"formname.[",
+			"ideaTicker",
+			"angular.copy",
+			"name",
+			"sortType",
+			"compareAndEdit",
+			"Pending_Open",
+			"=",
+			"                =",
+			"this",
+			"p",
+			"p ng-message=\"tickervalidate\"",
+			"$formatters",
+			"new_idea_form",
+			"formname",
+			"new_idea_form",
+			"tickerdata",
+			"modal_generic",
+			"modal_contributors.html",
+			"valid",
+			"close",
+			"reject",
+			"$rootScope",
+			"tickerdata",
+			"id",
+			"ngModelController",
+			"\",\n",
+			"serviceConstants",
+			"edt1",
+			"chk2",
+			"lcl",
+			"_data.ideaEditDataModel",
+			"this",
+			"\"new\"",
+			"modalConstants",
+			"<<<<",
+			"this.rootScope.ajaxOn = false;",
+			"eventListened",
+			"chk2",
+			"i",
+			"closeIdeaPopupOpen",
+			"portfolio",
+			"stopLossTriggerAmount",
+			"stopLossAlertAmount",
+			"_.",
+			"ideaDefaultDataModel",
+			"=",
+			"      =",
+			"filterFlag",
+			"ideaDefaults",
+			"tc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"details",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "h2go.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/personal/_projects_/h2go/h2go_proj.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,139 @@
+@import './src/main/layout/scss/defaults.scss';
+
+.ms-position{
+    position: relative;
+    width: 100%;
+}
+
+.ms-drop{
+    // max-width: 50%;
+    // width: 100%;
+    min-height: 30px;
+    background-color: $blue1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    content: "";
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+.ms-drop-container{
+    width: calc(100% - 20px);
+}
+.ms-drop-carat{
+    width:20px;
+    .caret{
+        color: white;
+        margin: auto;
+        margin-right: 10px;
+    }
+}
+
+.ms-container{    
+    // max-width: 50%;
+    height: 300px;
+    background-color: $blue1;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -302px;
+    width: 100%;
+    z-index: 999;
+}
+
+.ms-search{
+    position:relative;
+    height:44px;
+    background-color: $gray2;
+    input{
+        position: absolute;
+        top: 10px;
+        left: 10px;      
+    }
+}
+.ms-sub-container{
+    background-color: $blue1;
+    ul{
+        height:225px;
+        border-top: 1px solid $gray4;
+        border-right: 1px solid $gray4;
+        &:last-of-type{
+            border-right:none;
+        }
+    }
+}
+
+.ms-sub-title{
+    margin: 2px;
+    padding: 6px 5px;
+    color: white;
+    height:25px;
+    content: "";
+}
+
+.ms-item{
+    margin: 2px;
+    padding: 6px 5px;
+    color: white;
+    font-family: Interstate-Light;
+    font-size: 11px;
+    line-height:11px;
+    border-radius: 2px;
+}
+
+.ms-placeholder{
+    color: $gray4;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Interstate-Regular;
+    margin: 10px 9px;
+}
+
+.ms-highlighted{
+    background-color: rgba(86,141,178,0.35);
+}
+
+.ms-allowed{
+    background-color: rgba(8,133,66, 0.5);
+    &:before{
+        content: "\f00c";
+        font-family: FontAwesome;
+        padding: 0 10px 0 5px;
+        font-size: 11px;
+        opacity: 0.5;
+    }
+}
+
+
+.ms-excluded{
+    background-color: rgba(221,64,65,0.6);
+    &:before{
+        content: "\f05e";
+        font-family: FontAwesome;
+        padding: 0 10px 0 5px;
+        font-size: 11px;
+        opacity: 0.5;
+    }
+}
+
+.ms-item .fa {
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.ms-pill{
+    font-size: 11px;
+    padding: 5px 5px;
+    color: white;
+    border-radius:2px;
+    height: 24px;
+    font-family: Interstate-Light;
+    margin: 4px 0px 0px 3px;
+    .fa{
+        font-size: 11px;
+        margin: auto;
+        margin-left: 10px;
+    }
+}
+

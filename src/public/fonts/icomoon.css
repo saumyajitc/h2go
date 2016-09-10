@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?wzwgu8');
+  src:  url('./icomoon.eot?wzwgu8#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?wzwgu8') format('truetype'),
+    url('./icomoon.woff?wzwgu8') format('woff'),
+    url('./icomoon.svg?wzwgu8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  line-height: 1;
+  padding-right: 4px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-white{
+  color: white;
+}
+
+.icon-Check:before {
+  content: "\e900";
+}
+.icon-Close:before {
+  content: "\e901";
+  font-size: 8px;
+  float: right;
+  margin: 4px 5px;
+}
+.icon-Closed:before {
+  content: "\e902";
+}
+.icon-Contributor:before {
+  content: "\e903";
+}
+.icon-Downtick:before {
+  content: "\e904";
+}
+.icon-Filter:before {
+  content: "\e905";
+}
+.icon-Menu:before {
+  content: "\e906";
+}
+.icon-Open:before {
+  content: "\e907";
+}
+.icon-Plus:before {
+  content: "\e908";
+}
+.icon-Portfolio:before {
+  content: "\e909";
+}
+.icon-Search:before {
+  content: "\e90a";
+}
+.icon-Sort-Down:before {
+  content: "\e90b";
+}
+.icon-Sort-Up:before {
+  content: "\e90c";
+}
+.icon-Uptick:before {
+  content: "\e90d";
+}
+

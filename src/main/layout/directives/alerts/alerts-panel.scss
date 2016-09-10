@@ -1,0 +1,107 @@
+@import './src/main/layout/scss/defaults.scss';
+
+.alerts-panel{
+    width: 291px;
+    max-height: 100vh;
+    overflow: scroll;
+    background-color: $blue1;
+    position: absolute;
+    top: 51px;
+    right: -6px;
+    z-index: 9999999;
+    padding-left: 14px;
+    .toasta-box{
+        padding-left: 10px;
+    }
+}
+
+.alerts-panel-close{
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    font-size: 9px;
+    padding: 4px 4px 5px 7px;
+    top: 51px;
+    right: 285px;
+    background-color: $blue3;
+    border-right: 1px solid white;
+    span{
+    }
+}
+.alerts-panel-head{
+    position: relative;
+    margin-top: 40px;
+    border-bottom: 1
+}
+.alerts-panel-jumbo{
+    margin-bottom: 6px;
+    font-size: 24px;
+	font-family: $font-light;
+}
+
+.alerts-panel-clear-all{
+    position: absolute;
+    right: 10px;
+    margin-bottom: 9px;
+    font-family: Interstate-Bold;
+	font-size: 10px;
+	// letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.alerts-panel-date{
+    font-family: Interstate-Bold;
+    font-size: 10px;
+    height: 19px;
+    padding-left: 5px;
+    padding-top: 1px;
+    border-top: 1px solid white;
+    background-color: $white-2;
+}
+
+.alerts-panel-message{
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+}
+
+.overlay{
+    &:hover{
+        background-color: $white-5;
+    }
+}
+
+#alerts-panel-container{
+
+}
+
+//Animation
+.alerts-panel-slider.ng-enter, .alerts-panel-slider.ng-leave {
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:600px;
+}
+
+.alerts-panel-slider.ng-enter {
+  z-index:9999999;
+  right:-600px;
+  opacity:0;
+}
+.alerts-panel-slider.ng-enter.ng-enter-active {
+  right:0;
+  opacity:1;
+}
+
+.alerts-panel-slider.ng-leave {
+  z-index:9999999;
+  right:0;
+  opacity:1;
+}
+.alerts-panel-slider.ng-leave.ng-leave-active {
+  right:-600px;
+  opacity:0;
+}

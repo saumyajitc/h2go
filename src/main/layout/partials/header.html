@@ -1,0 +1,41 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Citi Logo" src='./src/public/img/citilogo_header.png'>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li>
+          <span class="icon-Contributor icon-white"></span>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-o fa-stack-2x"></i>
+              <i class="fa fa-user fa-stack-1x"></i>
+            </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="navbar brand">
+ 	<ul class="nav navbar-nav">
+        <li ng-repeat="menu in layout.mainMenus" ng-class="{active: menu.route ===  layout.selectedMenu}">
+        	<a ng-click="layout.setSelectedMenu(menu.route)" >{{ menu.label }}</a>
+        </li>
+ 	</ul>
+  <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a ac-alerts-panel>Alerts</a>
+      </li>
+  </ul>
+</div>
+<!--  ui-sref="{{ 'layout.' + menu.route + '.base' }}"  -->

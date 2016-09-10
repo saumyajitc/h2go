@@ -1,0 +1,14 @@
+<div class="modal-header" ng-class="{'dialog-header-notify': genericModalController.status === 'default', 'dialog-header-error':genericModalController.status === 'error', 'dialog-header-confirm': genericModalController.status === 'confirm', 'dialog-header-warning': genericModalController.status === 'warning', 'dialog-header-info': genericModalController.status === 'info'}">
+ 	<button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="genericModalController.close()"><span class="icon-Close"></span></button>
+ 	<div class="modal-title">
+ 		<!-- <button type="button" ng-click="viewEditBusinessCaseModalCtrl.close()" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+ 		<h5><span style="color:white">{{ genericModalController.title }}</span></h5>
+ 	</div>
+</div>
+<div class="modal-body">
+	<div class="generic-error-message">{{ genericModalController.messageResp}}</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-xs btn-info" style="width:50px" ng-click="genericModalController.ok()">{{genericModalController.yesLabel}}</button>
+	<button class="btn btn-xs btn-danger" style="width:50px" ng-click="genericModalController.close()" ng-if="genericModalController.status === 'confirm'">{{genericModalController.noLabel}}</button>
+</div>

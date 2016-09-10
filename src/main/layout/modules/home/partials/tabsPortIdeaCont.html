@@ -1,0 +1,44 @@
+ <div class="form-section">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="tab-nav">
+				<ul>
+				  <li ng-repeat="tab in section.tabLinks" ng-class="{ active: section.selectedLink === tab.label }" ng-model="section.selectedLink">
+				  	<a class="btn btn-link" ng-click="(section.selectedLink = section.tabLinks[$index].label); (section.getTabData(tab.label))">{{tab.label}}</a><br>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	 <div class="animate-switch-container" ng-switch on="section.selectedLink">
+     	<div class="animate-switch" ng-switch-when="Ideas">
+     		<div class="row">
+				<div ng-repeat="idea in section.allIdeaList">
+					<div class="panel-list-section" ng-class="{ activeSelectedTabItem: section.selectedIdea.baseIdeaId === idea.baseIdeaId }">
+						<idea-comp ideadata="idea" id="{{ $index }}" sendidea="section.showDetails('idea', idea)" ng-click="section.selectItem('idea', idea)"></idea-comp>
+					</div>
+				</div>
+			</div>
+     	</div>
+     	<div class="animate-switch" ng-switch-when="Portfolios">
+     		<div class="row">
+				<div ng-repeat="portfolio in section.allPortfolioList">
+					<portfolio-comp portfoliodata="portfolio" id="{{ $index }}" sendportfolio="section.showDetails('portfolio', portfolio)"></portfolio-comp>
+				</div>
+			</div>
+     	</div>
+     	<div class="animate-switch" ng-switch-when="Contributors">
+     		<div class="row">
+				<div ng-repeat="idea in section.allIdeaList">
+					<idea-comp ideadata="idea" id="{{ $index }}" sendidea="section.showDetails('idea', idea)"></idea-comp>
+				</div>
+			</div>
+     	</div>
+  	</div>
+
+
+	
+</div> <!-- end of form-section -->
+
+ 

@@ -1,0 +1,22 @@
+<!-- <div class="jumbotron">
+  <h1>{{home.name}}</h1>
+</div>
+
+<button class="btn btn-primary" ng-click="home.changeName()">Change</button>
+<button class="btn btn-danger" ng-click="home.randomName()">Random</button> -->
+
+
+<div id="performance" class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12" ui-view="performance">
+	</div>
+</div>
+
+<div id="filters" class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12" ui-view="filters"></div>
+</div>
+
+<div id="section" class="row full-page">
+	<div id="tabSection" class="col-lg-3 col-md-3 col-sm-3" ui-view="leftquad"></div>
+	<div id="detailSection" class="col-lg-9 col-md-9 col-sm-9" ui-view="rightquad"></div>
+</div>
+

@@ -1,0 +1,5 @@
+
+<input name="contributor_{{id}}" id="contributor_{{id}}" class="form-control all-caps" type="text" ng-trim="true" ng-model="formData.input" ng-blur="!loading && update(formData.input)" ng-keydown="keyPress($event, formData.input)" placeholder="SOEID" ng-disabled="items.length>=limit || loading" ng-required="required && emptyModel()">
+<div class='help-block' ng-if="validated && formData.input.length > 0">
+    <p>User(s) not found in Alpha Capture System</p>
+</div>

@@ -1,0 +1,4 @@
+<input name="ticker_search_{{id}}" id="ticker_search_{{id}}" class="form-control all-caps" type="text" ng-trim="true" ng-model="formData.input" ng-blur="!loading && update(formData.input)" ng-keydown="keyPress($event, formData.input)" placeholder="Tickers" ng-disabled="items.length>=limit || loading" ng-required="required && emptyModel()">
+<div class='help-block' ng-if="validated && formData.input.length > 0">
+    <p>Ticker(s) not found.</p>
+</div>

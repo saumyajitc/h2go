@@ -1,0 +1,80 @@
+<!--<a ng-click="showAlerts()">Alerts <span class="badge">{{alertsCount()}}</span></a>-->
+<div ng-transclude></div>
+<div id="alerts-panel-container" ng-if="showPanel()" class="alerts-panel-slider">
+    <div class="alerts-panel-close" ng-click="showAlerts()"><span class="icon-Close"></span></div>
+    <div class="alerts-panel">
+        <div class="alerts-panel-head">
+            <span class="alerts-panel-jumbo">Alerts</span>
+            <span class="alerts-panel-clear-all"><span class="icon-Close"></span>Clear All</span>
+        </div>
+        <div class="alerts-panel-body">
+            <div ng-repeat="(day, messages) in sortedAlerts" class="" >
+                <div class="alerts-panel-date">{{toDate(day) | date:"d MMMM yyyy"}}</div>
+                <div ng-repeat="message in messages" class="toasta-box alerts-panel-message overlay">
+                        <div class=" toasta-title">
+                            <!--<div class="toasta-close">
+                                <span class="icon-Close" aria-hidden="true" ng-click="tapToast()"></span>
+                            </div>-->
+                            <div class="toasta-type pull-left">
+                                <span class="label toasta-{{message.typeId}}">{{message.title}}</span>
+                            </div>
+                            <div class="toasta-meta pull-right">
+                                <span class=""><span ng-show="message.portfolios" class="icon-Portfolio icon-white"></span>{{message.portfolios}}</span>
+                                <span class=""><span ng-show="message.date" class="icon-Open icon-white"></span>{{message.date
+                                | date:"d MMM yy"}}</span>
+                            </div>
+                        </div>
+                                            <div class="toasta-body" ng-switch on="message.typeId">
+                                                <div ng-switch-when="1">
+                                                    Performance below <strong>{{message.target}}</strong> threshold of <strong>{{message.value}}</strong>
+                                                </div>
+                                                <div ng-switch-when="2">
+                                                    <strong>{{message.target}}</strong> ticker is now CAT <strong>{{message.value}}</strong> restricted
+                                                </div>
+                                                <div ng-switch-when="3">
+                                                    Idea closed as has met minimum hold period for this portfolio
+                                                </div>
+                                                <div ng-switch-when="4">
+                                                    Idea closed as has exceeded max life of <strong>{{message.value}}</strong> days.
+                                                </div>
+                                                <div ng-switch-when="5">
+                                                    Potential Stock / Reverse split detected - Please check and close out ideas as necessary.
+                                                </div>
+                                                <div ng-switch-when="6">
+                                                    Potential Merger detected - Please check and close out ideas as necessary.
+                                                </div>
+                                                <div ng-switch-when="7">
+                                                    Idea has reached target of <strong>{{message.value}}</strong> Alpha
+                                                </div>
+                                                <div ng-switch-when="8">
+                                                    Idea has hit stop loss level of <strong>{{message.value}}</strong> Alpha
+                                                </div>
+                                                <div ng-switch-when="9">
+                                                    Idea is close to max life and will be automatically closed in <strong>{{message.value}}</strong> days.
+                                                </div>
+                                                <div ng-switch-when="10">
+                                                    You need to submit <strong>{{message.target}}</strong> ideas in <strong>{{message.value}}</strong> days
+                                                    to meet target
+                                                </div>
+                                                <div ng-switch-when="11">
+                                                    An idea has been submitted by <strong>{{message.target}}</strong>
+                                                </div>
+                                                <div ng-switch-when="12">
+                                                    An idea has been submitted by <strong>{{message.target}}</strong> in <strong>{{message.value}}</strong>                    sector
+                                                </div>
+                                                <div ng-switch-when="13">
+                                                    Ideas has met time horizon of <strong>{{message.value}}</strong> <strong>{{message.target}}</strong>
+                                                </div>
+                                                <div ng-switch-when="buy">
+                                                    This is a generic <strong>Buy</strong> message
+                                                </div>
+                                                <div ng-switch-when="sell">
+                                                    This is a generic <strong>Sell</strong> message
+                                                </div>
+                                                <div ng-switch-default class="toasta-message" aria-label="{{message}}">{{message}}</div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

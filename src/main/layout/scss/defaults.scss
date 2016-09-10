@@ -1,0 +1,99 @@
+// ////////////////////////////////////////////////////////////
+// ////// Custom Variables
+// ////////////////////////////////////////////////////////////
+ 
+// // Global Variables
+// $global-background-color: #BABABA;
+ 
+// $global-primary-gray: #E6E6E5;
+// $global-secondary-gray: #CDCCCC;
+// $global-active-gray: #D8D8D8; // when a gray item is active or selected
+// $global-accent-gray: $global-background-color; // used in the filling of inactive check boxes, etc.
+ 
+ 
+// $global-primary-blue: #454F57; // could arguably call this gray...but it's blueish
+// $global-secondary-blue: #2E64AF;
+// $global-active-blue: #568DB2;
+ 
+// // Header colors
+// $header-primary-blue: #1A3E6F;
+// $header-secondary-blue: $global-secondary-blue;
+// $header-accent-blue: #1EBCEF;
+ 
+// // Fonts
+// $font-primary-color: #233949;
+// $font-title-color: $global-primary-blue;
+// $font-subtitle-color: #969696;
+// $green1: #088542;
+// $red1: $red1;
+// $input-border-bottom: #616E76;
+ 
+ 
+// // Dashboard
+// $tile-header-dark: #426390;
+// $tile-header-light: #2772DA;
+ 
+// // Forms
+ 
+// // Graphs
+// $chart-light-green: #D0E7DA;
+// $chart-light-red: #F9D9DA;
+// $chart-white-fill: rgba(255,255,255, 0.3);
+// $chart-red-fill: rgba(221, 64, 65, 0.5);
+// $chart-red-fill2: rgba(221, 64, 65, 0.3);
+// $chart-green-fill: rgba(8, 133, 66, 0.5);
+ 
+// // Errors and Visual Feedback Cues
+// $red1: $red1;
+// $error-highlight-red: rgba(221,64,65,0.2);
+// $alert-teal: #23B4C1;
+// $alert-yellow: #FFE760;
+// $alert-purple: #BA7EE6;
+// $alert-red: #E16E6E;
+// $alert-orange :#FFA961;
+
+// //Fixes
+
+
+$gray1:#454F57; // $global-primary-blue:
+$gray2:#616E76; // $input-border-bottom:
+$gray3:#969696; // $font-subtitle-color:
+$gray4:#BABABA; // $global-background-color:
+$gray5:#CDCCCC; // $global-secondary-gray: #CDCCCC;
+$gray6:#D8D8D8; // $global-active-gray: #D8D8D8;
+$gray7:#E6E6E5; // $global-primary-gray: #E6E6E5;
+
+$white:#FFFFFF;
+$white-5: rgba( $white, 0.5);
+$white-2: rgba( $white, 0.2);
+ 
+$blue1:#233949; // $font-primary-color:
+$blue2:#2B475B; // $secondary-blue #new
+$blue3:#1A3E6F; // $header-primary-blue:
+$blue4:#2E64AF; // $global-secondary-blue:
+$blue5:#426390; // $tile-header-dark:
+$blue6:#568DB2; // $global-active-blue:
+$blue7:#2772DA; // $tile-header-light:
+$blue8:#1EBCEF; // $header-accent-blue: 
+ 
+$red1:#dd4041; // $red1:
+$red2:#e16e6e; // $alert-red:
+$red3:#F9D9DA;
+$red1-5: rgba( $red1, 0.5);
+$red1-3: rgba( $red1, 0.3);
+$red1-2: rgba( $red1, 0.2);
+ 
+$green1:#088542; // $green1:
+$green2:#D1E8D9;
+$green1-5:rgba($green1, 0.5);
+ 
+$teal1:#4FD8E4; // $alert-teal:
+ 
+$yellow1:#ffe760; // $alert-yellow:
+ 
+$purple1:#ba7ee6; // $alert-purple:
+ 
+$orange1:#ffa961; // $alert-orange
+
+$font-regular: Interstate-Regular;
+$font-light: Interstate-Light;

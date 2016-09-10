@@ -1,0 +1,179 @@
+// @import './defaults';
+
+.toasta{
+    // display:inline-block;
+}
+
+.toasta-box{
+    font-family: $font-regular;
+    font-size: 12px;
+    line-height: 18px;
+    min-height: 75px;
+    width: 277px;
+    // padding: 5px;
+    background-color: $blue1;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.toasta-priority{
+    // background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=") !important;
+    background-color: $blue4;
+}
+.toasta-title{
+    position: relative;
+    width: 100%;
+    height:36px;
+    // padding: 3px;
+}
+
+.toasta-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.toasta-type{
+    // height:36px;
+    .label{
+        font-size: 9px;
+        color: $blue1;
+        display: inline-block;
+        height: 18px;
+        padding: 5px 6px;
+        margin: 14px 0;
+    }
+    // span{
+    //     display: inline-block;
+    //     height: 20px !important;
+    //     // margin: 5px 5px 2px 5px;
+    //     padding: 3px 6px;
+    //     border-radius: 2px;
+    //     // background-color: $red1;
+    // }
+}
+
+
+.toasta-meta{
+    margin-top: 19px;
+    margin-right: 27px;
+    // padding: 6px;
+    font-size: 9px;
+    line-height: 11px;
+    color: white;
+    [class*="icon-"]{
+        color: $gray5;
+        // margin: 19px 4px 8px 6px;
+    }
+}
+
+.toasta-body{
+    display: inline-block;
+    margin-right: 27px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: $gray5;
+    strong{
+        color: white;
+    }
+}
+
+.toasta-error{
+    background-color: red;
+}
+
+.toasta-head{
+    background-color: limegreen;
+    color: white;
+}
+
+.toasta-warning{
+    background-color: orange;
+}
+
+.toasta-info{
+    background-color: blue;
+}
+
+.toasta-1{
+    background-color: $yellow1;
+}
+
+.toasta-2{
+    background-color: $purple1;
+    color: white !important;
+}
+
+.toasta-3{
+    background-color: $orange1;
+}
+
+.toasta-4{
+    background-color: $teal1;
+}
+
+.toasta-5{
+    background-color: $red2;
+}
+
+.toasta-6{
+    background-color: green;
+}
+
+.toasta-7{
+    background-color: yellow;
+}
+
+.toasta-8{
+    background-color: yellow;
+}
+
+.toasta-9{
+    background-color: yellow;
+}
+
+.toasta-10{
+    background-color: yellow;
+}
+
+.toasta-11{
+    background-color: yellow;
+}
+
+.toasta-12{
+    background-color: yellow;
+}
+
+.toasta-13{
+    background-color: yellow;
+}
+
+.toasta-buy{
+    background-color: $blue8;
+}
+
+.toasta-sell{
+    background-color: $orange1;
+}
+
+.toasta-default{
+    background-color: green;
+}
+
+.toasta-message{
+    color: white;
+    margin-left: 5px;
+}
+
+.toasta-container-position{
+    top: 136px;
+    right: 10px;
+}
+
+#toast-container{
+    position: absolute;
+}

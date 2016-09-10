@@ -1,0 +1,10 @@
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+		<div ng-include="partials + 'tickerinput.html'">
+	</div>
+	<div class="contributor-input">
+		<div class="pill pad-right" ng-repeat="item in displayItems() | limitTo: display | orderBy:$index:true track by $index"><span>{{item.ricCode}}</span><span class="icon-Close" ng-click="remove(item)"></span></div>
+		<div class="pill pad-right" ng-show="showAll()" ng-click="openModal('tickers')"><span>...</span></div>
+	</div>
+	<button type="button" ng-show="showAll()" class="btn btn-primary small-top-margin"  ng-click="openModal('tickers')">View All <span>({{items.length}})</span></button>
+</div>

@@ -1,0 +1,13 @@
+
+  <!--  <div>Layout {{ layout.name }}</div> -->
+	<div ng-include="'./src/main/layout/partials/header.html'"></div>
+	<div ui-view></div>
+
+	<div class="modalDialog" ng-show="ajaxOn" >
+    <div>
+    	<div class="loadingText"> Loading Data....please wait <i class="fa fa-spinner fa-pulse fa-fw"></i></div>
+		
+    </div>
+</div>
+
+
