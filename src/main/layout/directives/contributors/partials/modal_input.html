@@ -1,9 +1,0 @@
-<div class="row">
-	<div class="col-lg-12 col-md-12 col-sm-12">
-		<i class="fa fa-spinner fa-spin form-control-feedback" ng-show="loading"></i>
-		<input class="form-control has-feedback all-caps input-side-borders" type="text" ng-trim="true" ng-model="formData.input" ng-keydown="keyPress($event, formData.input)" placeholder="SOEID" ng-disabled="items.length>=limit || loading">
-		<div class='help-block' ng-if="validated && formData.input.length > 0">
-			<p>User(s) not found in Alpha Capture System</p>
-		</div>
-	</div>
-</div>

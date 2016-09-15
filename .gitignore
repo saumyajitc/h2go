@@ -200,8 +200,8 @@ bower_components
 .node_repl_history
 
 #Excluding the bundles
-/WebContent/src/bundle.js
-/WebContent/src/bundle.js.map
+#/WebContent/src/bundle.js
+#/WebContent/src/bundle.js.map
 
 
 #Excluding annoying DS_Store

@@ -8,7 +8,7 @@ import uirouter from 'angular-ui-router';
 import routing from './config';
 import layout from './main/layout';
 
-const myModule = angular.module('citiAlphaApp', [uirouter, angularui, layout]);
+const myModule = angular.module('h2go_app', [uirouter, angularui, layout]);
 
 myModule.run(['$state', '$stateParams',
     function($state, $stateParams) {
@@ -21,8 +21,6 @@ myModule.config(routing);
 if (ON_TEST) {
 	require('angular-mocks/angular-mocks');
 }
-
-helloDirectives(myModule);
 
 if (module.hot) {
   module.hot.accept();

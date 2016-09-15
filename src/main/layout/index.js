@@ -1,5 +1,4 @@
 import './scss/layout.scss';
-// import 'ui-select/dist/select.css';
 
 import uiselect from 'ui-select';
 import toastr from 'angular-toastr';
@@ -12,7 +11,7 @@ import routing from './config';
 import toastrConfig from './toastr.config';
 
 //Modules
-import home from './modules/home';
+import login from './modules/login';
 
 
 //Controllers
@@ -22,7 +21,6 @@ import { GenericModalController } from  './controllers/modals/generic.ctrl.modal
 
 //Services
 import layoutSetup from './services/layoutSetup.service';
-import restService from './services/rest.service';
 import notify from '../utils/notify.service';
 import modalService from '../utils/modal.service';
 import appHttpInterceptor from '../utils/appHttp.interceptor';
@@ -32,26 +30,20 @@ import appHttpInterceptor from '../utils/appHttp.interceptor';
 import PercentFilter from '../utils/percent.filter';
 
 //Directives
-import ContributorsDirective from './directives/contributors/contributors';
-import MultiSelectDirective from './directives/multi-select/multi-select';
 import NoNegativesDirective from './directives/nonegatives/nonegatives-comp';
 import MaxValueDirective from './directives/maxvalue/maxvalue-comp';
 import AlertsDirective from './directives/alerts/alerts-panel';
 
 initialiseAgGridWithAngular1(angular);
 
-export default angular.module('citiAlphaApp.layout', [uirouter, uiselect, toastr, ngAnimate, ngSanitize, ngMessages, home, layoutSetup, notify, modalService, restService, appHttpInterceptor, "agGrid", ContributorsDirective, MultiSelectDirective, NoNegativesDirective, MaxValueDirective, AlertsDirective])
+export default angular.module('h2go_app.layout', [uiselect, toastr, ngAnimate, ngSanitize, ngMessages, login, layoutSetup, notify, modalService, appHttpInterceptor, "agGrid", NoNegativesDirective, MaxValueDirective, AlertsDirective])
 	.run(['$rootScope', '$state', '$templateCache', function($rootScope, $state, $templateCache){
 			$rootScope.reportInitialized = false;
 			$rootScope.previousState = '';
 			$rootScope.currentState = '';
 
 			//Module level flags for checking on data edits to update cache
-			$rootScope.ideaModified 		= false;
-			$rootScope.portfolioModified 	= false;
 			$rootScope.userModified			= false;
-			$rootScope.analyticsModified	= false;
-			$rootScope.historyModified		= false;
 			
 			$rootScope.$on('$stateChangeStart', function(ev, to, toParams, from, fromParams) {
 				$rootScope.previousState = from.name;
@@ -67,7 +59,15 @@ export default angular.module('citiAlphaApp.layout', [uirouter, uiselect, toastr
 
 			//Load the Template Cache with Toastr Templates
 			let toastrTemplate = require('./partials/toastr-template.html');
-			$templateCache.put('templates/toastr/toastr.html', toastrTemplate) 
+			$templateCache.put('templates/toastr/toastr.html', toastrTemplate);
+
+			//Load the Template Cache generic Modal
+			let genericModalTemplate = require('./partials/modals/modal_generic.html');
+			$templateCache.put('templates/modals/modal_generic.html', genericModalTemplate);
+
+			//Load the Template Cache with Toastr Templates
+			let modalExceptionsTemplate = require('./partials/modals/modal_exceptions.html');
+			$templateCache.put('templates/modals/modal_exceptions.html', modalExceptionsTemplate);
 			
 		}])
 	.config(routing)

@@ -1,8 +1,0 @@
-<div class="row">
-	<div class="col-lg-5 col-md-5 col-sm-5">
-		<div ng-include="partials + 'input.html'"></div>
-	</div>
-	<div class="contributor-input">
-		<div class="pill pad-left" ng-repeat="item in displayItems() | limitTo: display | orderBy:$index:true track by $index"><span>{{item.userDimension.firstName}} {{item.userDimension.lastName}}</span><span class="icon-Close" ng-click="removeSingle(item)"></span></div>
-	</div>
-</div>

@@ -7,15 +7,7 @@ export default function routing($stateProvider, $httpProvider, $provide) {
 		     controller: 'LayoutController',
 		     controllerAs: 'layout'
     	})
-    	.state('layout.home', {
-    		abstract: true,
-	    	url: 'home',
-	      	template: require('./modules/home/home.html'),
-	      	controller: 'HomeController',
-	      	controllerAs: 'home',
-	      	params: {},
-	      	resolve: {}
-	    });
+    	
 
 	$httpProvider.useApplyAsync(true);
 

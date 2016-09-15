@@ -8,7 +8,6 @@ const src_path = __dirname + '/src';
 const config = {
 	context: __dirname + '/src',
 	entry: [
-		'bootstrap-loader',
 		'./index.js',
 		'webpack/hot/dev-server',
 		'webpack-dev-server/client?http://localhost:8080/'

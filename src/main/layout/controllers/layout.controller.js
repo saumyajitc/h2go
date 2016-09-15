@@ -12,7 +12,7 @@ class LayoutController {
     this.refData = [];
     
     //method mapping
-    this.setAppReferenceData();
+    //this.setAppReferenceData();
 
     this.init();
 
@@ -21,7 +21,7 @@ class LayoutController {
     });
 
     //route changes
-    this.state.go('layout.home.base');
+    this.state.go('layout.login');
   }
 
   init() {
